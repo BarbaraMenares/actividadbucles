@@ -1,0 +1,98 @@
+/* Estilos */
+
+* { /*Reset para diferencias entre browsers*/
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	margin: 1rem;
+}
+
+header { 
+	margin: 1rem;
+}
+
+section { 
+display: inline-block;
+}
+
+h1 {
+	font-family: 'Roboto Slab', serif;
+	color: black;
+}
+
+a {
+	font-family: 'Ubuntu', sans-serif;
+	color: white;
+	text-decoration: none;
+	padding: 35px;
+	font-size: 20px;
+}
+
+a:hover { 
+	font-family: 'Ubuntu', sans-serif;
+	color: white;
+	text-decoration: underline;
+	padding: 35px;
+	font-size: 20px;
+}
+
+.boton { 
+	width: 200px;
+	height: 100px;
+	background-color: black;
+	margin: 1rem;
+	border: 4px gray;
+	border-style: inset;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+} 
+
+.boton:hover {
+	background-color: gray;
+}
+
+.actividad1 {
+	background-color: yellow;
+	width: 200px;
+	height: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.actividad2 {
+	background-color: cyan;
+	width: 200px;
+	height: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.actividad3 {
+	background-color: green;
+	width: 200px;
+	height: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.linea {
+	border-top: 1px solid black;
+	height: 2px;
+	padding: 0;
+	margin: 20px auto 0 auto;
+}
+
+.pie {
+	font-size: 15px;
+	font-family: 'Ubuntu', sans-serif;
+	padding: 1 rem;
+	display: flex;
+	justify-content: flex-end;
+}
